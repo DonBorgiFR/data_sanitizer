@@ -1,0 +1,33 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Python cache y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs de ejecución locales
+*.log
+sanitizer_engine.log
+
+# Archivos temporales o basura local
+]
+scratch.py
+scratch_patch.py
+*.zip
+*.xlsx.tmp
+
+# Configuraciones locales de agentes o editores
+.antigravity/
+.agent/
+.vscode/
+.idea/
+.DS_Store
