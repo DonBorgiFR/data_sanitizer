@@ -758,3 +758,64 @@ def render_demo_pitch_tab():
             """
         )
 
+def render_creator_tab():
+    """
+    Renderiza la presentación del creador (Borja Félix Rojas) y sus otros proyectos de portfolio.
+    """
+    st.markdown("## 👤 Sobre el Creador — Borja Félix Rojas")
+    st.markdown("**Ingeniería de Procesos · Control de Gestión · Automatización Operativa**")
+    
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        st.markdown(
+            """
+            Mi enfoque profesional se sitúa en la intersección entre la **ingeniería civil industrial** y el **control de gestión**. No me defino como un desarrollador de software tradicional, sino como un **diseñador de flujos de control y lógica operativa**. Utilizo la tecnología y la programación avanzada en Python exclusivamente como herramientas instrumentales para erradicar tareas administrativas inútiles, reducir mermas de tiempo y poner orden en el caos de información que suelen arrastrar las empresas.
+            
+            A lo largo de mi trayectoria laboral —desde el control de costes corporativos y el análisis de P&L/EBITDA en el sector energético (Empresas Gasco) hasta la estandarización y reingeniería Lean de procesos logísticos en faenas mineras críticas (Transviña)— he comprobado que el principal cuello de botella de la eficiencia no es la falta de herramientas, sino el desorden de los datos de base.
+            
+            **DataSanitizer** nace directamente de esta experiencia en terreno. Diseñé este motor para resolver el retrabajo real que sufren consultores y controllers al preparar datos para migraciones ERP o staging, traduciendo reglas de negocio complejas (validaciones matemáticas de IBANs, dígitos de control fiscal, o concordancias logísticas) en un sistema local-first ágil, portable y resiliente.
+            """
+        )
+    with col2:
+        st.markdown("#### 🌐 Contacto y Enlaces")
+        st.markdown("[🔗 LinkedIn](https://www.linkedin.com/in/borjafelixrojas/)")
+        st.markdown("[🏠 Sitio Web Personal](https://borjafelixrojas.odoo.com/)")
+        st.markdown("[🐙 Perfil de GitHub](https://github.com/DonBorgiFR)")
+        st.markdown("[☕ Apoya mi trabajo (Ko-fi)](https://ko-fi.com/borjafelixrojas)")
+        
+    st.markdown("---")
+    st.markdown("### ⚙️ Áreas de Especialización y Ecosistema")
+    st.markdown(
+        """
+        - **Gestión y Control:** Control presupuestario, variance analysis, reporting ejecutivo (KPIs/OEE), cálculo de escandallos (BOM), y modelado de costes estándar.
+        - **Orquestación y Datos:** Automatización de pipelines ETL locales, indexación avanzada de datos con `Pandas`, cálculo de similitudes con `RapidFuzz` (distancia de Levenshtein con bloqueo), manipulación de hojas de cálculo con `openpyxl` y creación de interfaces interactivas con `Streamlit`.
+        - **Cumplimiento Normativo:** Adaptación operativa a la facturación electrónica B2B en España (Ley Crea y Crece, VeriFactu) y privacidad local-first (zero-server) para cumplimiento IT.
+        """
+    )
+    
+    st.markdown("---")
+    st.markdown("### 🛠️ Otros Desarrollos del Portafolio")
+    
+    c1, c2 = st.columns(2)
+    with c1:
+        st.markdown(
+            """
+            **💰 [FinTriage](https://github.com/DonBorgiFR/fintriage) (CFO & Portfolio Toolkit):**  
+            Plataforma local-first de triage y diagnóstico financiero para startups y pymes. Ingesta de libros contables del PGC, EBITDA normalizado y scoring de 8 líneas financieras públicas (ENISA, CDTI, ICO).
+            
+            **🛡️ [PRL España](https://borjafelixrojas.odoo.com/blog/herramientas-1/prl-espana-9):**  
+            Conversor interactivo de normativas de prevención de riesgos (HSE) a planes de acción y decisiones operativas concretas con trazabilidad y soporte multilenguaje.
+            """
+        )
+    with c2:
+        st.markdown(
+            """
+            **🏡 [Rentabilidad Zen](https://borjafelixrojas.odoo.com/blog/herramientas-1/rentabilidad-inmobiliaria-6):**  
+            Simulador profesional inmobiliario español para calcular el esfuerzo, precios objetivos de alquiler y rentabilidad neta tras impuestos bajo la Ley de Vivienda 2024.
+            
+            **🇪🇸 [España Viva](https://borjafelixrojas.odoo.com/blog/herramientas-1/espana-viva-7):**  
+            Dashboard analítico inmersivo que cruza datos de la OCDE, Banco Mundial e INE para visualizar el progreso social libre de ruido o sesgo mediático.
+            """
+        )
+
+

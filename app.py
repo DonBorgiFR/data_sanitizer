@@ -15,7 +15,8 @@ from sanitizer.ui_components import (
     render_dry_run_panel,
     render_execution_metrics,
     render_rejects_panel,
-    render_demo_pitch_tab
+    render_demo_pitch_tab,
+    render_creator_tab
 )
 from sanitizer.ui_actions import (
     load_raw_dataframe, 
@@ -239,13 +240,16 @@ def main():
             st.sidebar.caption("⚠️ **Avanzado**: Agrupa por provincia exacta. Requiere que la provincia esté bien cargada en el origen.")
         elif blocking_method == "none":
             st.sidebar.caption("⚠️ **Lento (O(N²))**: Compara todos los registros contra todos. Muy preciso pero prohibitivo para conjuntos de datos grandes.")
-    tab_run, tab_help, tab_demo = st.tabs(["🚀 Ejecución & Limpieza", "📖 Centro de Ayuda & FAQ", "🎬 Guía de Demo IT SAP"])
+    tab_run, tab_help, tab_demo, tab_creator = st.tabs(["🚀 Ejecución & Limpieza", "📖 Centro de Ayuda & FAQ", "🎬 Guía de Demo IT SAP", "👤 Sobre el Creador"])
 
     with tab_help:
         render_help_center()
         
     with tab_demo:
         render_demo_pitch_tab()
+        
+    with tab_creator:
+        render_creator_tab()
 
     with tab_run:
         
