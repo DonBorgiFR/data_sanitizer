@@ -1,5 +1,8 @@
 # DataSanitizer: ERP Data Quality & Pre-Migration Suite (V4.0.0)
 
+[![Demo en Vivo](https://img.shields.io/badge/Demo%20en%20Vivo-https%3A%2F%2Fbfr--datasanitizer.streamlit.app%2F-red?style=for-the-badge&logo=streamlit&logoColor=white)](https://bfr-datasanitizer.streamlit.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Borja%20Felix%20Rojas-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/borjafelixrojas/)
+
 **DataSanitizer** es una plataforma integral de diagnóstico, sanitización, validación matemática y deduplicación de datos maestros de negocio. Diseñada específicamente para dar soporte a **implantaciones y migraciones de ERPs (SAP S/4HANA, Sage, Odoo, etc.)**, esta herramienta permite mitigar el caos de datos previo a la carga, asegurando el cumplimiento estricto de las reglas fiscales y la integridad del modelo de datos de producción.
 
 ---

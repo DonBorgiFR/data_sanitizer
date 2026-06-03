@@ -45,6 +45,7 @@ Microsoft Excel carece de motores de validación matemática complejos integrado
 
 ## 9. Estado Actual del Proyecto
 *   **Versión Estable V4.0.0** finalizada y testeada.
+*   **Demostración en Vivo:** Disponible y operativa en Streamlit Community Cloud en [https://bfr-datasanitizer.streamlit.app/](https://bfr-datasanitizer.streamlit.app/)
 *   Suite de pruebas robusta con **50 tests funcionales** integrados que pasan con un 100% de éxito, y **2 pruebas de rendimiento** separadas que certifican los acuerdos de nivel de servicio (SLA) de procesamiento.
 *   Lanzador Windows autoinstalable (`Iniciar_Interfaz.bat`) operativo que gestiona de forma autónoma el entorno virtual y el inicio del sistema.
 
